@@ -16,4 +16,11 @@
 PRODUCT_PACKAGES := \
     fRom \
     libsec-ril \
-    libsecril-client
+    libsecril-client \
+    sirfgps \
+    ducati-m3 \
+    gps.omap4 \
+    libwvdrm_L1 \
+    libwvm \
+    libWVStreamControlAPI_L1 \
+    libdrmwvmplugin
