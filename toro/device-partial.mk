@@ -27,7 +27,14 @@ PRODUCT_PACKAGES := \
     lib_gsd4t \
     libims \
     libims_jni \
-    libsec-ril_lte
+    libsec-ril_lte \
+    sirfgps \
+    ducati-m3 \
+    gps.omap4 \
+    libwvdrm_L1 \
+    libwvm \
+    libWVStreamControlAPI_L1 \
+    libdrmwvmplugin
 
 # This is Open Source but doesn't get built without
 # the other packages above
