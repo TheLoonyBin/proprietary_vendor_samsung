@@ -32,3 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/aries-common/proprietary/orientationd:system/vendor/bin/orientationd \
     vendor/samsung/aries-common/proprietary/geomagneticd:system/vendor/bin/geomagneticd
 
+# Temp Bluetooth fix
+PRODUCT_COPY_FILES +=\
+    vendor/samsung/captivatemtd/proprietary/libbt-vendor.so:system/vendor/lib/libbt-vendor.so
