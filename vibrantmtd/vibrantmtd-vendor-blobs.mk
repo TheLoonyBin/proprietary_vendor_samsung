@@ -17,7 +17,6 @@ PRODUCT_COPY_FILES := \
     vendor/samsung/vibrantmtd/proprietary/libril.so:obj/lib/libril.so \
     vendor/samsung/vibrantmtd/proprietary/libsecril-client.so:obj/lib/libsecril-client.so
 
-
 # All the blobs necessary for vibrantmtd devices
 PRODUCT_COPY_FILES += \
     vendor/samsung/vibrantmtd/proprietary/gps.conf:system/etc/gps.conf \
@@ -32,6 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/aries-common/proprietary/orientationd:system/vendor/bin/orientationd \
     vendor/samsung/aries-common/proprietary/geomagneticd:system/vendor/bin/geomagneticd
 
-#Temp BlueTooth fix
+# Temp Bluetooth fix
 PRODUCT_COPY_FILES +=\
     vendor/samsung/vibrantmtd/proprietary/libbt-vendor.so:system/vendor/lib/libbt-vendor.so
