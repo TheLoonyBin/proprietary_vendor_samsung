@@ -26,4 +26,5 @@ PRODUCT_PACKAGES := \
     libsec-ril_lte \
     sirfgps \
     ducati-m3 \
+    gps.omap4 \
     libwvm
