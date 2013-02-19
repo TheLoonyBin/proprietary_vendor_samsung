@@ -17,26 +17,28 @@ PRODUCT_PACKAGES := \
     BIP \
     IMSFramework \
     RTN \
-    SDM \
-    SPG \
-    SyncMLSvc \
     fRom \
     libsecril-client \
-    libsyncml_core \
-    libsyncml_port \
     lib_gsd4t \
     libims \
     libims_jni \
     libsec-ril_lte \
-    sirfgps \
+    com.vzw.hardware.ehrpd.xml \
+    com.vzw.hardware.lte.xml \
+    com.vzw.vzwapnlib.xml \
     ducati-m3 \
     gps.omap4 \
+    libdrmwvmplugin \
     libwvdrm_L1 \
     libwvm \
     libWVStreamControlAPI_L1 \
-    libdrmwvmplugin
+    sirfgps \
+    VZWAPNLib \
+    VZWAPNService
 
-# This is Open Source but doesn't get built without
-# the other packages above
-PRODUCT_PACHAGES += \
-    CellBroadcastReceiver
+# Disabled PRODUCT_PACKAGES
+#    SDM #Samsung software update
+#    SPG #Wireless tether authorization service
+#    SyncMLSvc #SyncML Service for communication to VZW. Required for SPG.
+#    libsyncml_core #SyncML Service for communication to VZW. Required for SPG.
+#    libsyncml_port #SyncML Service for communication to VZW. Required for SPG.
