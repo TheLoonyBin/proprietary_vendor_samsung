@@ -12,10 +12,21 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_STEM := manta/BoardConfigPartial.mk
-
--include vendor/audience/$(LOCAL_STEM)
--include vendor/broadcom/$(LOCAL_STEM)
--include vendor/samsung/$(LOCAL_STEM)
--include vendor/widevine/$(LOCAL_STEM)
-
+# Samsung blob(s) necessary for manta hardware
+PRODUCT_PACKAGES :=     fimc_is_fw \
+    fimc_is_fw2 \
+    mfc_fw \
+    maxtouch \
+    setfile \
+    setfile_4e5 \
+    setfile_6a3 \
+    00060308060501020000000000000000 \
+    020a0000000000000000000000000000 \
+    07060000000000000000000000000000 \
+    libbccArm.sha1 \
+    libbccArm \
+    libbcinfoArm \
+    libclcoreArm \
+    libclcore_neonArm \
+    libRSDriverArm \
+    libGLES_mali
