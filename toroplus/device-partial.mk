@@ -23,9 +23,12 @@ PRODUCT_PACKAGES := \
     fRom \
     gps.omap4 \
     lib_gsd4t \
+    libfrsdk \
     libsec-ril_lte \
     libsecril-client \
     libsyncml_core \
     libsyncml_port \
+    libwvdrmengine \
     libwvm \
+    libWVphoneAPI \
     sirfgps
