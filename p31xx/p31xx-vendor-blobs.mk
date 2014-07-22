@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/common/system/bin/dock_kbd_attach:system/bin/dock_kbd_attach \
     $(LOCAL_PATH)/common/system/bin/geomagneticd:system/bin/geomagneticd \
     $(LOCAL_PATH)/common/system/bin/gpsd:system/bin/gpsd \
-    $(LOCAL_PATH)/common/system/bin/hostapd:system/bin/hostapd \
     $(LOCAL_PATH)/common/system/bin/orientationd:system/bin/orientationd \
     $(LOCAL_PATH)/common/system/bin/smc.ini:system/bin/smc.ini \
     $(LOCAL_PATH)/common/system/bin/smc_pa.ift:system/bin/smc_pa.ift
@@ -40,6 +39,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/common/system/lib/libdomx.so:system/lib/libdomx.so \
     $(LOCAL_PATH)/common/system/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     $(LOCAL_PATH)/common/system/lib/libion.omap4.so:system/lib/libion.omap4.so \
+    $(LOCAL_PATH)/common/system/lib/libion_ti.so:system/lib/libion_ti.so \
     $(LOCAL_PATH)/common/system/lib/libmm_osal.so:system/lib/libmm_osal.so \
     $(LOCAL_PATH)/common/system/lib/libOMX.TI.DUCATI1.MISC.SAMPLE.so:system/lib/libOMX.TI.DUCATI1.MISC.SAMPLE.so \
     $(LOCAL_PATH)/common/system/lib/libOMX.TI.DUCATI1.VIDEO.CAMERA.so:system/lib/libOMX.TI.DUCATI1.VIDEO.CAMERA.so \
