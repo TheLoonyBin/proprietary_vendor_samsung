@@ -21,6 +21,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trltexx/proprietary/vendor/firmware/bcm43569A1_wisol.hcd:system/vendor/firmware/bcm43569A1_wisol.hcd \
     vendor/samsung/trltexx/proprietary/vendor/firmware/bcm43569.hcd:system/vendor/firmware/bcm43569.hcd \
     vendor/samsung/trltexx/proprietary/vendor/firmware/BT_FW_BCM4358A1_001.002.005.0032.0066.hcd:system/vendor/firmware/BT_FW_BCM4358A1_001.002.005.0032.0066.hcd \
+    vendor/samsung/trltexx/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
+    vendor/samsung/trltexx/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+    vendor/samsung/trltexx/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
+    vendor/samsung/trltexx/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
+    vendor/samsung/trltexx/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
     vendor/samsung/trltexx/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/samsung/trltexx/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/samsung/trltexx/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
