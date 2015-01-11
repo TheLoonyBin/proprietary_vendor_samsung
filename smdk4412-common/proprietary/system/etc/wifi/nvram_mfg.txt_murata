@@ -43,7 +43,7 @@ pa1hib0=0x1544
 pa1hib1=0xfd4c
 pa1hib2=0xff42
 tssifloor5gh=26
-PwrOffset40mhz2g=4 
+PwrOffset40mhz2g=4
 PwrOffset40mhz5g=-10
 rxpo5g=0
 
@@ -110,7 +110,7 @@ ofdm40digfilttype=8
 cckdigfilttype=24
 iqlocalidx5g=55
 dlocalidx5g=75
-lpbckmode5g=1 
+lpbckmode5g=1
 txiqlopapu5g=0
 iqcalidx5g=50
 txiqlopapu2g=0
