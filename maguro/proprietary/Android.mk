@@ -17,15 +17,6 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),maguro)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := fRom
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := fRom
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/bin
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libsec-ril
 LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES := libsec-ril.so
