@@ -27,16 +27,6 @@ LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libsecril-client
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := libsecril-client.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := ducati-m3
 LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES := ducati-m3.bin
