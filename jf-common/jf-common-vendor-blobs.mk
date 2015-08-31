@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/jf-common/proprietary/bin/mpdecision:system/bin/mpdecision \
+    vendor/samsung/jf-common/proprietary/bin/radish:system/bin/radish \
     vendor/samsung/jf-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/samsung/jf-common/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/samsung/jf-common/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so \
@@ -119,7 +120,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jf-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/jf-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/jf-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/samsung/jf-common/proprietary/vendor/lib/liblocationservice.so:vendor/lib/liblocationservice.so \
+    vendor/samsung/jf-common/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/samsung/jf-common/proprietary/bin/insthk:system/bin/insthk \
     vendor/samsung/jf-common/proprietary/etc/srm.bin:system/etc/srm.bin \
     vendor/samsung/jf-common/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
