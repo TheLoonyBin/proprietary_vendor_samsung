@@ -20,14 +20,6 @@ PRODUCT_COPY_FILES += \
 	$(VENDOR_FOLDER)/toro-common/firmware/bcm4330.hcd:system/vendor/toro-common/firmware/bcm4330.hcd
 
 
-# toro-specific files copied to /system/vendor/toro
-# ".apk" renamed to ".kpa" to allow it to get through PRODUCT_COPY_FILES
-PRODUCT_COPY_FILES += \
-	$(VENDOR_FOLDER)/toro/app/BIP.kpa:system/vendor/toro/app/BIP.kpa \
-	$(VENDOR_FOLDER)/toro/app/IMSFramework.kpa:system/vendor/toro/app/IMSFramework.kpa \
-	$(VENDOR_FOLDER)/toro/app/RTN.kpa:system/vendor/toro/app/RTN.kpa
-
-
 # toroplus-specific files copied to /system/vendor/toroplus
 PRODUCT_COPY_FILES += \
 	$(VENDOR_FOLDER)/toroplus/app/BIP.kpa:system/vendor/toroplus/app/BIP.kpa \
