@@ -28,11 +28,6 @@ PRODUCT_COPY_FILES += \
 # toro-specific files copied to /system/vendor/toro
 # ".apk" renamed to ".kpa" to allow it to get through PRODUCT_COPY_FILES
 PRODUCT_COPY_FILES += \
-	$(VENDOR_FOLDER)/toro/app/BIP.kpa:system/vendor/toro/app/BIP.kpa \
-	$(VENDOR_FOLDER)/toro/app/IMSFramework.kpa:system/vendor/toro/app/IMSFramework.kpa \
-	$(VENDOR_FOLDER)/toro/app/RTN.kpa:system/vendor/toro/app/RTN.kpa \
-	$(VENDOR_FOLDER)/toro/lib/libims.so:system/vendor/toro/lib/libims.so \
-	$(VENDOR_FOLDER)/toro/lib/libims_jni.so:system/vendor/toro/lib/libims_jni.so \
 	$(VENDOR_FOLDER)/toro/lib/libsec-ril_lte.so:system/vendor/toro/lib/libsec-ril_lte.so
 
 
