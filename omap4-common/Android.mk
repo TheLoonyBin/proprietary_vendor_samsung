@@ -19,7 +19,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE := gralloc.omap4430
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := system/vendor/lib/hw/gralloc.omap4430.so
+LOCAL_SRC_FILES := proprietary/system/vendor/lib/hw/gralloc.omap4430.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -29,7 +29,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := gralloc.omap4460
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := system/vendor/lib/hw/gralloc.omap4460.so
+LOCAL_SRC_FILES := proprietary/system/vendor/lib/hw/gralloc.omap4460.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -39,7 +39,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := gralloc.omap4470
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := system/vendor/lib/hw/gralloc.omap4470.so
+LOCAL_SRC_FILES := proprietary/system/vendor/lib/hw/gralloc.omap4470.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
