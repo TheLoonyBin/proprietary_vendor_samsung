@@ -35,6 +35,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8960-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/samsung/msm8960-common/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
     vendor/samsung/msm8960-common/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
+    vendor/samsung/msm8960-common/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/samsung/msm8960-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/samsung/msm8960-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/samsung/msm8960-common/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -42,12 +43,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8960-common/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/samsung/msm8960-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/samsung/msm8960-common/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-    vendor/samsung/msm8960-common/proprietary/lib/libdivxdrm.so:system/lib/libdivxdrm.so \
-    vendor/samsung/msm8960-common/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
+    vendor/samsung/msm8960-common/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/samsung/msm8960-common/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/samsung/msm8960-common/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
-    vendor/samsung/msm8960-common/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/samsung/msm8960-common/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/samsung/msm8960-common/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
     vendor/samsung/msm8960-common/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/samsung/msm8960-common/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
     vendor/samsung/msm8960-common/proprietary/lib/libyamaha.so:system/lib/libyamaha.so
