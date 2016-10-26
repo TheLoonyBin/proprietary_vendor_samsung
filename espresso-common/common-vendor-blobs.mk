@@ -39,6 +39,3 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/espresso-common/proprietary/system/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/samsung/espresso-common/proprietary/system/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/espresso-common/proprietary/system/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
-
-PRODUCT_COPY_FILES += \
-    vendor/samsung/espresso-common/proprietary/system/etc/powervr.ini:system/etc/powervr.ini
