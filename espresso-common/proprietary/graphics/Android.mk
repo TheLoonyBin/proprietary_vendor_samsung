@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_BOARD_PLATFORM),omap4)
+ifneq ($(filter espressowifi espresso3g p3100 p3110 p5100 p5110,$(TARGET_DEVICE)),)
 
 
 include $(CLEAR_VARS)
