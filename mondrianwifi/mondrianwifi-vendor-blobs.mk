@@ -88,7 +88,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/mondrianwifi/proprietary/bin/ks:system/bin/ks \
 	vendor/samsung/mondrianwifi/proprietary/bin/qcks:system/bin/qcks \
 	vendor/samsung/mondrianwifi/proprietary/bin/qmuxd:system/bin/qmuxd \
-	vendor/samsung/mondrianwifi/proprietary/bin/rild:system/bin/rild \
 	vendor/samsung/mondrianwifi/proprietary/bin/rmt_storage:system/bin/rmt_storage \
 	vendor/samsung/mondrianwifi/proprietary/lib/libatparser.so:system/lib/libatparser.so \
 	vendor/samsung/mondrianwifi/proprietary/lib/libcordon.so:system/lib/libcordon.so \
@@ -208,7 +207,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
 	vendor/samsung/mondrianwifi/proprietary/bin/qseecomd:system/bin/qseecomd \
-	vendor/samsung/mondrianwifi/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
 	vendor/samsung/mondrianwifi/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
 	vendor/samsung/mondrianwifi/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
 	vendor/samsung/mondrianwifi/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
@@ -220,7 +218,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-	vendor/samsung/mondrianwifi/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
