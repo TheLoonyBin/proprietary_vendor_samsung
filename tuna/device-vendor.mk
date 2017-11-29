@@ -8,8 +8,6 @@ PRODUCT_PACKAGES += \
     lib_gs4dt.toro-common \
     gps.omap4.toro-common \
     libsec-ril_lte.toro \
-    libims.toro \
-    libims_jni.toro \
     libsec-ril_lte.toroplus
 
 PRODUCT_PACKAGES += \
